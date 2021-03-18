@@ -8,3 +8,5 @@
 * `npm install postcss-cli`
 * `npm install autoprefixer`
 * `hugo -D`
+
+Ergebnis ist der `public` ordner, der die statische Webseite enthält
