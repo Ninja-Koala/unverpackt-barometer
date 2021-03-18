@@ -1,0 +1,18 @@
+#barometer-svg {
+  width: 80%;
+}
+
+@media only screen and (min-width: 768px) {
+  #barometer-svg {
+    /*width: 54%;*/
+	width: 44%;
+  }
+}
+
+#uvp-logo {
+  width: 30%;
+}
+
+#wimpel {
+	width: 100%;
+}
