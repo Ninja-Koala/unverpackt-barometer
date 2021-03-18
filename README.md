@@ -7,6 +7,9 @@
 * npm installieren
 * `npm install postcss-cli`
 * `npm install autoprefixer`
+* In der `config.toml` den Wert `baseURL` richtig setzen
 * `hugo -D`
 
-Ergebnis ist der `public` ordner, der die statische Webseite enthält
+Ergebnis ist der `public` Ordner, der die statische Webseite enthält.
+Dort befindet sich die Datei `funding-status.min.js`, darin kann die Variable
+`funding_status` auf den aktuellen Finanzierungswert gesetzt werden.
