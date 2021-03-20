@@ -1,5 +1,6 @@
-baseURL                          = "localhost/"   # Your domain name. Must end with "/"
+#baseURL                          = "localhost/"   # Your domain name. Must end with "/"
 #baseURL                          = "/unverpackt/"   # Your domain name. Must end with "/"
+baseURL                           = "unverpackt-siegen.de/"
 theme                            = "introduction"
 DefaultContentLanguage           = "de"                    # Default language for multilingual sites
 # disqusshortname                 = ""                     # https://gohugo.io/content-management/comments
