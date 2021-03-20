@@ -6,7 +6,7 @@ headless: true
  <g transform="translate(-170 -10)">
   <g id="level-arrow" transform="translate(-50,64)">
     <path id="arrow-rotate" d="m 285.19223,211.95514 -10.94358,10.45783 10.69408,10.31167 2.91084,-7.2133 36.94054,-0.0642 -0.44219,-8.91345 -35.36442,1.49197 z"/>
-    <text id="funding-status" fill="#000" x="335" y="231" font-size="2em"> Bitte Javascript aktivieren </text>
+    <text id="funding-status" fill="#f00" x="335" y="231" font-size="0.5em"> Bitte Javascript aktivieren </text>
   </g>
   <g transform="translate(104.79 21.608)">
    <path d="m69.391 32.881-3.11 28.161-1.0363 61.286 1.6252 63.293-1.9609 20.508 1.7574 51.109 3.0179 18.074 8.2845 5.7204 6.917.0972 5.2672-1.3654 3.4497-3.0628 3.2093-5.0122 1.233-7.3412 3.9134-52.67-1.2445-70.856-.99916-40.077 4.6217-33.921-2.5418-29.724-4.3717-10.503-10.155-3.2399-8.7455.79166-6.5685 2.581z" fill="#ccc"/>

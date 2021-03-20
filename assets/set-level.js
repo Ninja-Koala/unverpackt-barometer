@@ -36,6 +36,8 @@ let start;
   
   var funding_status_svg = document.getElementById("funding-status")
   funding_status_svg.textContent = Math.round(t1 * max_fund) + "€";
+  finding_status_svg.setAttribute("font-size", "2em");
+  finding_status_svg.setAttribute("fill", "#000");
   
   if(funding_status > 47000){
   	var arrow_rotate_svg = document.getElementById('arrow-rotate');
