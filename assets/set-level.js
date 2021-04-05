@@ -19,8 +19,9 @@ let start;
     const elapsed = timestamp - start;
   
   var t1 = Math.min(elapsed / animation_time * t0, t0);
+  var t2 = Math.min(t1,1);
   
-  var cur_height = min_height + t1 * max_height_diff;
+  var cur_height = min_height + t2 * max_height_diff;
   level_svg.setAttribute("height", cur_height)
   level_svg.setAttribute("y", default_y-(cur_height-default_height))
   
@@ -29,7 +30,7 @@ let start;
   var arrow_default_y = 64;
   var arrow_rotation = 30;
   
-  var arrow_height = arrow_default_y - t1 * max_height_diff;
+  var arrow_height = arrow_default_y - t2 * max_height_diff;
   
   level_arrow_svg.setAttribute("transform", "translate(-50," + arrow_height + ")");
   
@@ -52,3 +53,12 @@ let start;
 }
 
 window.requestAnimationFrame(step);
+
+function endAnimation() {
+	confetti.start();
+
+	document.getElementById("geschafft").textContent = "Geschafft!";
+}
+
+setTimeout(endAnimation, 2000);
+setTimeout(confetti.stop, 5000);

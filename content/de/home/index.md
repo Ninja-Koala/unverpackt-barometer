@@ -2,7 +2,8 @@
 title: "Unverpackt Siegen"
 headless: true
 ---
-<svg id="barometer-svg" version="1.1" viewBox="0 0 223 295" xmlns="http://www.w3.org/2000/svg">
+<svg id="barometer-svg" version="1.1" viewBox="0 0 400 295" xmlns="http://www.w3.org/2000/svg">
+ <text id="geschafft" fill="#000" x="150" y="160" font-size="3em" font-weight="bold"></text>
  <g transform="translate(-170 -10)">
   <g id="level-arrow" transform="translate(-50,64)">
     <path id="arrow-rotate" d="m 285.19223,211.95514 -10.94358,10.45783 10.69408,10.31167 2.91084,-7.2133 36.94054,-0.0642 -0.44219,-8.91345 -35.36442,1.49197 z"/>

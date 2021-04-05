@@ -1,1 +1,1 @@
-funding_status = 10000
+funding_status = 60000

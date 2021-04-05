@@ -1,4 +1,3 @@
-#baseURL                          = "localhost/"   # Your domain name. Must end with "/"
 #baseURL                          = "/unverpackt/"   # Your domain name. Must end with "/"
 baseURL                           = "/"
 theme                            = "introduction"
@@ -14,7 +13,7 @@ DefaultContentLanguage           = "de"                    # Default language fo
     fadeInIndex                  = false                   # Turn on/off the fade-in effect on the index page even if fade-in was otherwise turned off
     dateFormat                   = "Jan 2, 2006"
     customCSS                    = ["unverpackt.css"]             # Include custom css files placed under assets/
-    customJS                     = ["funding-status.js", "set-level.js"]              # Include custom JavaScript files placed under assets/
+    customJS                     = ["confetti.js", "funding-status.js", "set-level.js"]              # Include custom JavaScript files placed under assets/
     # plausible                  = true                    # Use Plausible analytics (requires an account at Plausible.io)
 
     # Configure the home page
